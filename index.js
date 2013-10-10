@@ -1,5 +1,5 @@
-var cronJob = require('cron').CronJob,
-    _ = require('underscore'),
+var _ = require('underscore'),
+    cronJob = require('cron').CronJob,
     sender = require('./sender');
 
 var Tomator = function(params) {
@@ -22,7 +22,7 @@ Tomator.prototype.cron = function(pattern, params, callback, timezone) {
     }
 }
 
-Tomator.prototype.start = function(pubdate, params, callback, timezone) {
+Tomator.prototype.pub = function(pubdate, params, callback, timezone) {
     var self = this;
     if (_.isDate(pubdate)) {
         self.job = new cronJob({

@@ -25,6 +25,9 @@
   },
   "dependencies": {
     "cron": "*",
-    "underscore": "*"
+    "underscore": "*",
+    "beer": "*",
+    "time": "*",
+    "async": "*"
   }
 }

@@ -1,10 +1,10 @@
 var api = require('beer');
 
 // weibo
-exports.weibo = function(params, cb) {
+exports.weibo = function(params, msg, cb) {
     api.post('https://api.weibo.com/2/statuses/update.json?access_token=' + params.token, {
         form: {
-            status: params.content
+            status: msg.content
         }
     }, function(err, result) {
         cb(err, result)
@@ -12,10 +12,10 @@ exports.weibo = function(params, cb) {
 }
 
 // tqq
-exports.tqq = function(params, cb) {
+exports.tqq = function(params, msg, cb) {
     api.post('https://api.weibo.com/2/statuses/update.json?access_token=' + params.token, {
         form: {
-            status: params.content
+            status: msg.content
         }
     }, function(err, result) {
         cb(err, result)
@@ -23,10 +23,10 @@ exports.tqq = function(params, cb) {
 }
 
 // qqspace
-exports.qqspace = function(params, cb) {
+exports.qqspace = function(params, msg, cb) {
     api.post('https://api.weibo.com/2/statuses/update.json?access_token=' + params.token, {
         form: {
-            status: params.content
+            status: msg.content
         }
     }, function(err, result) {
         cb(err, result)
