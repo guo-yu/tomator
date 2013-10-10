@@ -1,7 +1,8 @@
 {
   "name": "tomator",
-  "version": "0.0.1",
-  "description": "a sns timer for pushing messages ",
+  "version": "0.0.2",
+  "description": "a simple tomato timer for pushing messages to social networks",
+  "logo": "http://ww3.sinaimg.cn/large/61ff0de3gw1e9g2pflmcnj201e01e3yb.jpg",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

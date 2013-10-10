@@ -1,4 +1,4 @@
-## tomator ![npm](https://badge.fury.io/js/tomator.png)
+## ![logo](http://ww3.sinaimg.cn/large/61ff0de3gw1e9g2pflmcnj201e01e3yb.jpg) tomator ![npm](https://badge.fury.io/js/tomator.png)
 
 a simple tomato timer for pushing messages to social networks by [turing](https://npmjs.org/~turing) 
 
