@@ -1,6 +1,6 @@
 {
   "name": "tomator",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "a sns timer for pushing messages ",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/turingou/tomator/issues"
+  },
+  "dependencies": {
+    "cron": "*",
+    "underscore": "*"
   }
 }
