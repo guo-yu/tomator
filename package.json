@@ -29,6 +29,7 @@
     "underscore": "*",
     "beer": "*",
     "time": "*",
-    "async": "*"
+    "async": "*",
+    "weibo": "*"
   }
 }
