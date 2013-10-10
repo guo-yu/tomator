@@ -1,0 +1,26 @@
+{
+  "name": "tomator",
+  "version": "0.0.0",
+  "description": "a sns timer for pushing messages ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/turingou/tomator.git"
+  },
+  "keywords": [
+    "timer",
+    "weibo",
+    "qq",
+    "tqq",
+    "social",
+    "networks"
+  ],
+  "author": "turing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turingou/tomator/issues"
+  }
+}
