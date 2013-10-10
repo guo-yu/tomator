@@ -1,17 +1,28 @@
 ## tomator ![npm](https://badge.fury.io/js/tomator.png)
 
-a sns timer for pushing messages  by [turing](https://npmjs.org/~turing) 
+a simple tomato timer for pushing messages to social networks by [turing](https://npmjs.org/~turing) 
 
 ### Installation
 ````
 $ npm install tomator
-// or install globally
-$ sudo npm install tomator -g
 ````
 
 ### Example
 ````javascript
 var tomator = require('tomator');
+
+var demo = new tomator({
+    weibo: 'accessToken',
+    tqq: 'accessToken',
+    qqspace: 'accessToken'
+});
+
+demo.pub(new Date('2013/10/10 14:15:00'),{
+    content: 'im demo text'
+},function(err, result){
+    console.log(err);
+    console.log(result);
+});
 ````
 
 ### API
